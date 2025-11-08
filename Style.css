@@ -9,8 +9,6 @@ html, body {
     overflow-x: hidden;
     font-family: 'Inter', sans-serif;
 }
-
-/* Hero Banner */
 h1 {
     justify-content: center;
     text-align: center;
@@ -29,8 +27,19 @@ h2 {
     padding-top: 0px;
     font-family: 'Cinzel', serif;
     font-weight: 400;
+    font-size: 1.5rem;
+}
+h3 {
+    justify-content: center;
+    text-align: center;
+    color: rgb(92, 92, 95);
+    padding-top: 0px;
+    font-family: 'Cinzel', serif;
+    font-weight: 400;
     font-size: 1.25rem;
 }
+
+/* Hero Banner */
 #hero-tag {
     margin-top: -30px;
 }
@@ -149,6 +158,13 @@ h2 {
     background-color: rgb(21, 21, 27);
     text-align: center;
     font-family: 'Cinzel', serif;
+}
+.divider {
+    text-align: center;
+    color: #CBA35A;
+    margin: 16px 0 12px;
+    letter-spacing: 4px;   
+    font-size: .85rem;
 }
 
 /* Skills */
